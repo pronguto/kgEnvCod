@@ -1,3 +1,5 @@
+import Dev from "../../assets/dev.png";
+import Logo from "../../assets/kgLogo.png";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import {
@@ -19,13 +21,17 @@ export const Home = () => {
       <Container>
         <MainContent>
           <div>
-            <MainContentImg src="/IMG/logopng.png" alt="KG" />
+            <MainContentImg src={Logo} alt="KG" />
             <MainContentWrited>Environment Coding</MainContentWrited>
-            <a href="https://discord.com/invite/H9XrhE4c">
+            <a
+              href="https://discord.com/invite/H9XrhE4c"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MainContentButton>Acessar Comunidade</MainContentButton>
             </a>
           </div>
-          <DevImage src="/IMG/Design sem nome (1).png" alt="BlankSpace" />
+          <DevImage src={Dev} alt="BlankSpace" />
         </MainContent>
 
         <QuestionContent>

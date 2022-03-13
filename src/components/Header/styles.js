@@ -15,11 +15,12 @@ export const NavMenu = styled.nav`
   display: flex;
   gap: 32px;
 `;
-export const NavMenuItem = styled.nav`
+export const NavMenuItem = styled.a`
   font-family: "Sarala", sans-serif;
   color: white;
   font-weight: 400px;
   font-size: 18px;
+  cursor: pointer;
   &:hover {
     color: rgba(236, 214, 196, 0.53);
     transition: color 0.5s;
