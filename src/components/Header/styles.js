@@ -6,6 +6,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  width: 98%;
   @media screen and (min-width: 500px) {
     justify-content: space-around;
   }
