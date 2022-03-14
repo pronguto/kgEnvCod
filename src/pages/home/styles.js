@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.main`
   border-top: 0.4px solid #929292;
   margin-bottom: 40px;
+  padding: 10px;
 `;
 
 export const MainContent = styled.section`
@@ -44,8 +45,12 @@ export const MainContentButton = styled.button`
 `;
 export const DevImage = styled.img`
   margin-top: 30px;
-  max-width: 410px;
-  max-height: 410px;
+  max-width: 400px;
+  max-height: 400px;
+  display: none;
+  @media screen and (min-width: 680px) {
+    display: block;
+  }
 `;
 
 export const QuestionContent = styled.section`
@@ -69,4 +74,5 @@ export const QuestionsContentAnswers = styled.p`
   font-family: "Sarala";
   font-size: 13.5px;
   font-weight: 400;
+  text-align: center;
 `;
